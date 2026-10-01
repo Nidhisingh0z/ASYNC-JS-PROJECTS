@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
+            background-color: azure;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Timer</h1>
+
+        <!-- Timer display -->
+        <h1 id="display">00:00</h1>
+
+        <button id="Start">Start</button>
+        <button id="Stop">Stop</button>
+        <button id="addTime">Add 5 sec</button>
+    </div>
+
+    <script src="ex1.js"></script>
+</body>
+</html>
